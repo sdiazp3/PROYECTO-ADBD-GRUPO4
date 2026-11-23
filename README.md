@@ -88,3 +88,5 @@ psql -U postgres -d ayudantias_catedra -f BaseDeDatos/pruebas/pruebas_funcionale
 ```
 
 Ejecuta 56 pruebas y al final hace `ROLLBACK` (no modifica los datos).
+
+(Nota: El script de pruebas utiliza comandos nativos de psql, por lo que debe ejecutarse desde la consola de PostgreSQL y no desde DBeaver)
